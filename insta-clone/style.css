@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.insta{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 18%;
+    align-items: center;
+    border-bottom: 1px solid rgba(219,219,219,1);
+    background-color: white;
+}
+
+.baricons ul,li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.baricons li{
+    margin: 0 6px;
+}
+
+.baricons a{
+    text-decoration: none;
+    color: black;
+}
+
+.searchbox {
+    padding: 0px 10px;
+    background-color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.searchbox input{
+     height: 30px;
+     border: none;
+     outline: none;
+     background-color: #fafafa;
+     text-align: center;
+     font-weight: lighter;
+}
+
+#sea{
+    color: #75759a;
+    font-size: 12;
+}
+
+/*body*/
+
+section{
+    padding: 1% 18%;
+    display: flex;
+    background-color: #fafafa;
+    
+
+}
+.leftside{
+    width: 65%;
+}   
+
+
+.story{
+    display: flex;
+    background-color: white;
+    padding: 22px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(219,219,219,1);
+    padding-left: 12px;
+
+}
+
+.stories{
+    width: 10%;
+    
+}
+
+.stories img{
+    border-radius: 50%;
+    border: #c96b96 3px solid;
+    padding: 1px;
+    object-fit: cover;
+
+    
+}
+
+.stories p{
+     width: 90%;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+}
+
+
+.post{
+     margin-top: 2%;
+     background-color: white;
+     border: 1px solid rgba(219,219,219,1);
+     border-radius: 5px;
+}
+
+.post .post-title{
+    margin-top: 1%;
+    padding: 9px;
+}
+
+.post-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+}
+
+.post-title .post-left{
+    display: flex;
+}
+
+.post-title .post-left img{
+    border-radius: 50%;
+    border: #c96b96 3px solid;
+    padding: 1px;
+    object-fit: cover;
+
+}
+
+.post-left .detail p{
+    margin-left: 10px;
+}
+
+.detail .name p{
+      font-weight: bold;
+      padding-bottom: 2px;
+}
+
+.detail .location p{
+      font-weight: lighter;
+}
+
+.postimg{
+    justify-content: center;
+    align-items: center;
+}
+
+.postimg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.postfooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 15px;
+}
+
+.likesharecmd i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.save i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.likes{
+    display: flex;
+    margin: 2px 10px;
+}
+
+
+.wholikes{
+    display: flex;
+    margin: 2px 3px;
+}
+
+.footercmd {
+    margin: 2px 10px;
+}
+
+.footercmd p{
+    margin-bottom: 2px;
+}
+
+.footercmd a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.footercmd h6{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.addcmds{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+}
+
+.cmdleft a{
+     text-decoration: none;
+     color: black;
+     font-size: 17px;
+}
+
+.cmdleft input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.cmdright a{
+    text-decoration: none;
+    color: blue;
+}
+
+.rightside{
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    right: 4%;
+}
+
+.profile{
+    display: flex;
+    padding: 15px;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.namee{
+    padding: 5px 15px;
+}
+
+.namee h3{
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.namee p{
+    color: dimgrey;
+}
+
+.switch{
+    padding-left: 100px;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #0095f6;
+    cursor: pointer;
+}
+
+.sugg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.sugleft p{
+     padding-left: 15px;
+     color: dimgrey;
+}
+
+.sugright p{
+    margin-right: 333px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.follow{
+    display: flex;
+    padding: 4px 15px;
+}
+
+.prof img{
+    border-radius: 50%;
+}
+
+.user-name{
+      padding: 5px 15px;
+}
+
+.user-name h3{
+       font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.user-name p{
+      color: dimgrey;
+}
+
+.foll{
+    padding-left: 104px;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #0095f6;
+    cursor: pointer;
+    
+}
+
+.aboutsec{
+    margin-top: 4%;
+    
+}
+
+.abouthelp{
+    display: inline-flex;
+    margin-left: 30px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.abouthelp a{
+    text-decoration: none;
+    color: dimgrey;
+    letter-spacing: 1px;
+}
+
+.abouthelp a:hover{
+    text-decoration: underline;
+}
+
+.instagram{
+    margin-left: 33px;
+    margin-top: 2.5%;
+}
+
+.instagram{
+    color: dimgrey;
+}
+
+/*media*/
+@media (max-width:1573px){
+    .stories{
+        width: 13%;
+    }
+}
+
+@media (max-width:992px)
+{
+    .nav{
+        padding: 10px 20px;
+    }
+
+    section .leftside{
+          width: 100%;
+    }
+
+    section .rightside{
+        display: none;
+    }
+
+    .stories{
+        width: 15%;
+    }
+}
+
+@media (max-width:786px){
+    .nav .searchbox{
+        display: none;
+    }
+
+    section {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width:528px){
+    .stories{
+        width: 20%;
+    }
+    
+}
